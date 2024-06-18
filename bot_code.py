@@ -1,3 +1,5 @@
+!pip install streamlit transformers torch
+
 import streamlit as st
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import datetime
